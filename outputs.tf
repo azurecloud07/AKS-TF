@@ -1,9 +1,9 @@
 output "resource_group_name" {
-  value = azurerm_resource_group.default.name
+  value = "rg-tf-akspoc-app"
 }
 
 output "kubernetes_cluster_name" {
-  value = azurerm_kubernetes_cluster.default.name
+  value = "poc-tf-aks-app"
 }
 
 # output "host" {
